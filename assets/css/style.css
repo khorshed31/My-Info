@@ -27,7 +27,6 @@ body::before {
   height: 100vh;
   z-index: -1;
 }
-
 @media (min-width: 1024px) {
   body::before {
     background-attachment: fixed;
@@ -52,6 +51,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 .primary_btn:hover{
   background-color: #18D26E !important;
+}
+.primary_btn1{
+  background-color: #18D26E !important;
+  color: #f1f1f1 !important;
+  font-weight: 700;
+}
+.primary_btn1:hover{
+  background-color:  #444444 !important;
+}
+.gig{
+  border: 1px solid #18d26e;
+  padding: 10px;
 }
 /*--------------------------------------------------------------
 # Header
